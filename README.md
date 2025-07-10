@@ -1,6 +1,6 @@
 # 🪐 MartianScale
 
-A simple Rust CLI tool that calculates your weight on Mars based on your weight on Earth. This project helps beginners understand basic Rust concepts like input/output, parsing, type conversion, and ownership.
+A simple Rust CLI tool that calculates your weight on Mars based on your weight on Earth. This project helps beginners understand basic Rust concepts like input/output, parsing, type conversion,functions, macros, mutablity, references, borrowing and ownership.
 
 ## 📦 How to Build and Run
 
