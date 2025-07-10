@@ -1,6 +1,7 @@
 use std::io;
 
 fn main() {
+    println!("Enter your weight on Earth in kg: ");
     let mut input = String::new(); //string is a type of smart pointer in rust
     // let mut s = input;
 
@@ -13,11 +14,15 @@ fn main() {
 
     //some_func(&mut input); // passing a reference to the function, so we don't transfer ownership
 
-
-    println!("Enter your weight on Earth in kg: ");
-    io::stdin().read_line(&mut input);
+    io::stdin().read_line(&mut input).unwrap();
+    // unwrap() is used to handle the Result type, it will panic if there is an error
     // the read_line function mutably borrows the string and changes its content by filling it by input
-    let mars_weight = calculate_weight_on_mars(100.0);
+
+    let weight: f64 = input.trim().parse().unwrap();
+    // trim removes the whitespace from the beginning and end of the string
+    // parse converts the string to a float
+
+    let mars_weight = calculate_weight_on_mars(weight);
     println!("Weight on Mars: {} kg", mars_weight);
 }
 // when the func exits, the drop fn on the string is called, which frees the memory, and is invoked automatically by the compiler
