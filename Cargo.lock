@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "calcformars"
+name = "MartianScale"
 version = "0.1.0"
