@@ -1,8 +1,3 @@
-Sure! Here's a simple and clear `README.md` file for your **Rust mini project** that calculates weight on Mars:
-
----
-
-```markdown
 # 🪐 MartianScale
 
 A simple Rust CLI tool that calculates your weight on Mars based on your weight on Earth. This project helps beginners understand basic Rust concepts like input/output, parsing, type conversion, and ownership.
