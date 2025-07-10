@@ -4,6 +4,9 @@ A simple Rust CLI tool that calculates your weight on Mars based on your weight 
 
 ## 📦 How to Build and Run
 
+<img width="677" height="252" alt="Screenshot 2025-07-11 001836" src="https://github.com/user-attachments/assets/6a9a4405-01ed-4297-ac27-a9dee47e470c" />
+
+
 ### Prerequisites
 
 - Rust and Cargo installed.  
