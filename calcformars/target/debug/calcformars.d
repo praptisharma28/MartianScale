@@ -1,1 +1,0 @@
-C:\Users\V.K\ SHARMA\source\repos\praptisharma28\miniserve-rs\MartianScale\calcformars\target\debug\calcformars.exe: C:\Users\V.K\ SHARMA\source\repos\praptisharma28\miniserve-rs\MartianScale\calcformars\src\main.rs
